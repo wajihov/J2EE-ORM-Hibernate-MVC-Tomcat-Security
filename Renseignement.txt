@@ -1,0 +1,31 @@
+Bonsoir 
+
+Tutorial J2EE ORM Hibernate Servlet JSP JSTL MVC Tomcat Security Master 
+
+Ce projet est l'un d'exercices qu'on doit utiliser ORM hibernate
+
+dans ce projet JEE :
+
+- Base de donnée MYSQL
+- ORM avec Hibernate
+- Application Web avec Servlet, JSP, JSTL
+- Authentification avec Tomcat Security
+
+Un passage nécessaire dans JEE avant de passer aux frameworks Spring ou EJB.
+
+ce projet est c'est l'un de video de mohamed youssfi est voila le lien de l'episode
+
+https://www.youtube.com/watch?v=AwoCW5T8yxc
+
+
+une chose necessaire est dans la phase de securité les utilisateurs et les mot de passes doivent être enregistrer dans le serveur tomcat utiliser
+dans la quelle on ajoute ce code 
+
+le fichier est tomcat-users.xml
+
+<role rolename="manager"></role>
+<user username="root" password="123456" roles="manager"/>
+<user username="admin" password="445566" roles="manager"></user>
+<user username="wajih" password="472581" roles="manager"></user>
+</tomcat-users>
+  

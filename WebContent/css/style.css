@@ -1,0 +1,21 @@
+body {
+	background: aqua;
+}
+
+div {
+	border: 1px dotted blue;
+	padding: 10px;
+	margin: 10px;
+}
+
+.table1 th {
+	border: 1px dotted green;
+	padding: 10px;
+	background: purple;
+}
+
+.table1 td {
+	border: 1px solid black;
+	padding: 10px;
+	background: gray;
+}
